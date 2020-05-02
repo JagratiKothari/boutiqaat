@@ -13,6 +13,96 @@
   }
 }
 
+.header {
+  background-color: #f8f9fa;
+}
+
+.filterSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60rem;
+  margin-left: 14rem;
+  margin-top: 20px;
+}
+
+.alphabeticalFilterSection {
+  display: flex;
+  width: 60rem;
+  margin-left: 14rem;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inputBox {
+  border: 3px solid grey;
+  height: 21px;
+  width: 10rem;
+  border-radius: 8px;
+}
+
+.ItemSection {
+  width: 20rem;
+  height: 24rem;
+}
+
+.ListItem {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 14rem;
+  margin-top: 2rem;
+}
+
+.header_image {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+}
+
+.image {
+  width: 274px;
+  height: 307px;
+}
+
+.name {
+  text-align: center;
+}
+
+.subHeading {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #af9433;
+  align: left;
+}
+
+.filterInput {
+  align: right;
+}
+
+.alphabets {
+  color: #af9433;
+  padding: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.allCelebrityFilter {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #af9433;
+  margin-top: 20px;
+  width: 25%;
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
